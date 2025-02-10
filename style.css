@@ -4,3 +4,38 @@
  font-family: "Roboto", serif;
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+body{
+    background-color: #ddd8f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",serif;
+}
+
+#nav-bar{ 
+    display: flex;
+    justify-content:flex-end;
+    gap: 30px; 
+    font-weight:normal;  
+    background:linear-gradient(to right,#3a5d85,#0A1D31);
+    color:#8FB2DA;
+    padding:8px;
+}
+/* #nav-bar div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+}
+#nav-bar span{
+    font-size: 14px;
+} */
+ i{
+    margin-right: 4px;
+    font-size:larger;
+} 
+#help-desk{
+    margin-right: 40px;
+}
